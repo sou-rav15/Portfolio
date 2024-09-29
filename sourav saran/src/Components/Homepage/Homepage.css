@@ -1,0 +1,183 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    background-color: #ffffff; /* Default light mode background */
+    color: #000000; /* Default text color */
+    transition: background-color 0.3s, color 0.3s;
+}
+.playwrite-de-grund{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dark-mode .playwrite-de-grund p{
+    color: rgba(227, 218, 218, 0.68);
+  }
+  .dark-mode .playwrite-de-grund h2{
+    color: rgba(227, 218, 218, 0.68);
+  }
+/* Dark Mode Styles */
+
+.togglebutton{
+    position: absolute; top: 13px; right: 60px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    width: 120px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+}
+.view-project{
+    border:none;
+    outline: none;
+    list-style: none;
+text-decoration: none;
+    border-radius: 5px;
+    width: 120px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+}
+.togglebutton:hover{
+    background-color: #050505c5;
+}
+.dark-mode {
+    background-color:#1c1b1b; /* Dark mode background for body */
+    color: #ffffff7c; /* Dark mode text color */
+}
+
+
+/* button.navbar-toggler.navbar-toggler.collapsed{
+    background-color: #c23131;
+} */
+
+.dark-mode .navbar {
+    background-color: #121111e7; /* Black navbar */
+
+}
+
+.dark-mode .navbar .nav-link {
+    color: rgb(237, 231, 231); /* Button color in navbar */
+}
+.dark-mode .portfolio-name{
+    color: #ffffff99;
+}
+.dark-mode .portfolio-name:hover{
+    color: #ffffff99;
+}
+
+/* .navbar-toggle{
+    padding: 0px;
+    border: none;
+    outline:none;
+    
+} */
+.navbar-toggler.navbar-toggler.collapsed{
+    background-color: #808080c3;
+    
+}
+.dark-mode .navbar-toggler{
+    background-color: #808080;
+}
+
+.dark-mode .mainsection{
+    background-color: black; /* Light black for other sections */
+    color: #ffffff; /* Ensure text is readable */
+    padding: 0px;
+}
+.dark-mode .btn{
+    background-color: #808080;
+    color: #060606;
+}
+
+.dark-mode h2, .dark-mode p {
+    color: #ffffff; /* Ensure text is readable in dark mode */
+}
+
+/* Optional: Additional styling for the footer */
+.dark-mode footer {
+    background-color: #060606; /* Light black footer */
+}
+.dark-mode .link{
+    color: rgba(227, 218, 218, 0.68);
+    /* background-color: #808080; */
+    font-weight: 500;
+}
+.view-project:hover{
+ background-color: #1e1d1dc5;
+}
+.dark-mode .view-project{
+    background-color: #808080;
+}
+.dark-mode .view-project:hover{
+    background-color: #808080b1;
+}
+.dark-mode .togglebutton{
+    background-color: #808080;
+}
+.dark-mode .togglebutton:hover{
+    background-color: #808080b1;
+}
+
+.dark-mode .about{
+   color:black;
+}
+.phone-number{
+    font-weight: 500;
+}
+.dark-mode .phone-number{
+    color:rgba(227, 218, 218, 0.68);
+}
+.dark-mode .footer{
+    background-color: #000000;
+    color: #ffffff;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+ .dark-mode .socialIcons {
+    color: #808080;
+ }
+@media (max-width: 900px) {
+    .togglebutton{
+        position: absolute; top: 13px; right: 120px;  
+   
+    }
+
+}
+@media (max-width: 500px) {
+    .togglebutton{
+        position: absolute; top: 13px; right: 120px;  
+        width: 100px;
+        padding: 4px;
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 400px) {
+    .togglebutton{
+        position: absolute; top: 13px; right: 100px;  
+        width: 100px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 350px) {
+    .togglebutton{
+        position: absolute; top: 18px; right: 80px;  
+        width: 60px;
+        padding: 4px;
+        font-size: 8px;
+    }
+
+}
