@@ -186,8 +186,8 @@ const HomePage = () => {
             <p>If you'd like to get in touch, you can reach me via:</p>
             <ul>
                 <li>Email: <a className='link' href="mailto:souravsaran155@gmail.com">souravsaran155@gmail.com</a></li>
-                <li>LinkedIn: <a className='link' href="https://www.linkedin.com/in/sourav-saran" target="_blank" rel="noopener noreferrer">linkedin.com/in/sourav-saran</a></li>
-                <li>GitHub: <a className='link' href="https://github.com/souravsaran" target="_blank" rel="noopener noreferrer">github.com/souravsaran</a></li>
+                <li>LinkedIn: <a className='link' href="https://www.linkedin.com/in/souravsaran/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sourav-saran</a></li>
+                <li>GitHub: <a className='link' href="https://github.com/sou-rav15/" target="_blank" rel="noopener noreferrer">github.com/souravsaran</a></li>
                 <li >Phone no:<spam className='phone-number'> +918076423683</spam></li>
             </ul>
             <p>I look forward to hearing from you!</p>
@@ -199,16 +199,16 @@ const HomePage = () => {
       <div className="footer  text-center py-3 playwrite-de-grund ">
         <p>© sourav saran | All Rights Reserved</p>
         <div className="social-icons">
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/souravsaran" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className='socialIcons'/>
                     </a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/sou-rav15/" target="_blank" rel="noopener noreferrer">
                     <FaGithub className='socialIcons'/>
                     </a>
                     <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
                       <FaInstagram className='socialIcons'/>
                     </a>
-                    <a href="https://wa.me/8076423683" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/+918076423683" target="_blank" rel="noopener noreferrer">
                        
                         <FaWhatsapp className='socialIcons'/>
                     </a>
